@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 248, 232);
+    font-family: cursive;
+}
+
+nav ul{
+    width: 100%;
+    overflow: hidden;
+    list-style-type: none;
+    background-color:rgb(170, 179, 150);
+    text-align: center;
+    padding:0px;
+    margin: 0px;
+    overflow: hidden;
+}
+nav a{
+text-decoration: none;
+color: rgb(103, 70, 54);
+padding: 12px;
+display: block; 
+float:right;
+font-weight: 700;
+
+}
+nav a:hover{
+    background-color:rgb(247, 238, 211);
+}
+.line{
+    height: 2px;
+    width: 100vw;
+ background-color:rgb(103, 70, 54) ;   
+}
+
+main{
+    display:flex;
+    height: 60vh;
+    padding: 20px;
+}
+.heading{
+    float: left;;
+    font-size: 50px;
+    color:rgb(103, 70, 54);
+    text-shadow: 1px 1px rgb(124, 210, 27);
+}
+main .seven{
+    width: 40vw;
+    display: inline;
+    padding-left: 20px;
+
+}
+span{
+    color:red;
+    text-shadow: 1px 1px rgb(107, 152, 22);
+}
+.photo img{
+    width:50vw;
+    height: 50vh;
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+  
+}
+@media(width<1000px){
+main{
+    display: inline;
+}
+.seven{
+    display: flex;
+}
+.photo img{
+    width:100vw;
+    height:60vh;
+    overflow: hidden;
+}
+}
+@media(width<500px){
+    .photo img{
+        width:80vw;
+        height:30vh;
+    }
+}
+@media(width<500px){
+    .seven {
+        padding: 20px;
+        /* margin: 10px; */
+    }
+}
+
+
+/* middle section  */
+
+.china{
+    margin-top: 20px;
+    background-color: rgb(170, 179, 150);
+    /* width: 100%; */
+    height: 40vh;
+    padding: 20px;
+    display: flex;
+    overflow: hidden;
+ }
+ .info1 h1{
+    font-size: 40px;
+    color:rgb(255, 248, 232);
+    text-shadow: 1px 1px rgb(103, 70, 54);
+ }
+ .china p{
+    font-size: 20px;
+    color: rgb(103, 70, 54);
+ }
+ .img1{
+    height:40vh;
+    width:40vw;
+    /* background-size: cover; */
+    object-fit: cover;
+    overflow: hidden;
+ }
+ .china .info1{
+   padding:40px;
+ }
+ .know{
+    border: 1px solid white;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.know a{
+    text-decoration: none;
+    color: white;
+}
+.know:hover{
+    background-color:rgb(103, 70, 54);
+}
+@media(width<500px){
+    .china{
+        padding: 20px;
+    }
+    .info1 h1{
+        font-size: 20px;
+     }
+     .china p{
+        font-size: 20px;
+     }
+     .china .img1{
+        height: 40vh;
+     }
+}
+footer p{
+    text-align: center;
+    color:black;
+    font-style: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
